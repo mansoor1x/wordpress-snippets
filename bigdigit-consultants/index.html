@@ -46,6 +46,7 @@
           <li><a href="#top">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
+          <li><a href="#deadlines">Deadlines</a></li>
           <li><a href="#pricing">Pricing</a></li>
           <li><a href="#faq">FAQ</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -264,6 +265,62 @@
       </div>
     </section>
 
+    <!-- Federal filing calendar -->
+    <section class="section deadlines" id="deadlines">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <span class="eyebrow">Federal Filing Calendar</span>
+          <h2>Never miss a federal filing deadline</h2>
+          <p>The key IRS due dates for sole proprietors, S-corps and partnerships, and employers, in one place. We track them for our clients.</p>
+        </div>
+        <div class="dl" data-deadlines>
+          <div class="dl__tabs" role="tablist" aria-label="Filing deadlines by type">
+            <button type="button" class="dl__tab" role="tab" id="dl-tab-1040" aria-controls="dl-panel-1040" aria-selected="true">Sole Prop / 1040</button>
+            <button type="button" class="dl__tab" role="tab" id="dl-tab-entity" aria-controls="dl-panel-entity" aria-selected="false">S-Corp / Partnership</button>
+            <button type="button" class="dl__tab" role="tab" id="dl-tab-employer" aria-controls="dl-panel-employer" aria-selected="false">Employers</button>
+          </div>
+          <div class="dl__panel" role="tabpanel" id="dl-panel-1040" aria-labelledby="dl-tab-1040">
+            <h3 class="dl__panel-title">Sole Prop / 1040</h3>
+            <p class="dl__who">For sole proprietors, freelancers and individuals filing Form 1040 with Schedule C.</p>
+            <p class="dl__next" data-next></p>
+            <ol class="dl__list">
+              <li class="dl__item" data-month="1" data-day="15"><div class="dl__date"><b>Jan</b><span>15</span></div><div class="dl__body"><h3>Q4 estimated tax payment</h3><ul><li>Form 1040-ES payment for the last quarter of the prior tax year.</li></ul></div></li>
+              <li class="dl__item" data-month="4" data-day="15"><div class="dl__date"><b>Apr</b><span>15</span></div><div class="dl__body"><h3>File your return or request an extension</h3><ul><li>File Form 1040 with Schedule C and Schedule SE, or file Form 4868 for an automatic 6-month extension.</li><li>Pay any tax owed. An extension gives more time to file, not more time to pay.</li><li>Q1 estimated tax payment (Form 1040-ES).</li><li>Last day for prior-year IRA and HSA contributions.</li></ul></div></li>
+              <li class="dl__item" data-month="6" data-day="15"><div class="dl__date"><b>Jun</b><span>15</span></div><div class="dl__body"><h3>Q2 estimated tax payment</h3><ul><li>Form 1040-ES payment covering April and May.</li></ul></div></li>
+              <li class="dl__item" data-month="9" data-day="15"><div class="dl__date"><b>Sep</b><span>15</span></div><div class="dl__body"><h3>Q3 estimated tax payment</h3><ul><li>Form 1040-ES payment covering June through August.</li></ul></div></li>
+              <li class="dl__item" data-month="10" data-day="15"><div class="dl__date"><b>Oct</b><span>15</span></div><div class="dl__body"><h3>Extended return deadline</h3><ul><li>Last day to file Form 1040 if you filed Form 4868.</li></ul></div></li>
+            </ol>
+          </div>
+          <div class="dl__panel" role="tabpanel" id="dl-panel-entity" aria-labelledby="dl-tab-entity">
+            <h3 class="dl__panel-title">S-Corp / Partnership</h3>
+            <p class="dl__who">For S corporations (Form 1120-S) and partnerships or multi-member LLCs (Form 1065).</p>
+            <p class="dl__next" data-next></p>
+            <ol class="dl__list">
+              <li class="dl__item" data-month="1" data-day="15"><div class="dl__date"><b>Jan</b><span>15</span></div><div class="dl__body"><h3>Owner Q4 estimated tax payment</h3><ul><li>Owners pay Form 1040-ES for the last quarter of the prior year on their share of profit.</li></ul></div></li>
+              <li class="dl__item" data-month="3" data-day="15"><div class="dl__date"><b>Mar</b><span>15</span></div><div class="dl__body"><h3>Business returns and K-1s</h3><ul><li>File Form 1120-S or Form 1065 and send Schedule K-1s to shareholders and partners.</li><li>Or file Form 7004 for an automatic 6-month extension.</li><li>Last day to file Form 2553 for an S election effective this year.</li></ul></div></li>
+              <li class="dl__item" data-month="4" data-day="15"><div class="dl__date"><b>Apr</b><span>15</span></div><div class="dl__body"><h3>Owners&#x27; personal returns</h3><ul><li>Owners file Form 1040 with their K-1 income, or file Form 4868 to extend.</li><li>Owner Q1 estimated tax payment (Form 1040-ES).</li></ul></div></li>
+              <li class="dl__item" data-month="6" data-day="15"><div class="dl__date"><b>Jun</b><span>15</span></div><div class="dl__body"><h3>Owner Q2 estimated tax payment</h3><ul><li>Form 1040-ES payment covering April and May.</li></ul></div></li>
+              <li class="dl__item" data-month="9" data-day="15"><div class="dl__date"><b>Sep</b><span>15</span></div><div class="dl__body"><h3>Extended business returns</h3><ul><li>Extended Form 1120-S and Form 1065 are due.</li><li>Owner Q3 estimated tax payment (Form 1040-ES).</li></ul></div></li>
+              <li class="dl__item" data-month="10" data-day="15"><div class="dl__date"><b>Oct</b><span>15</span></div><div class="dl__body"><h3>Extended owner returns</h3><ul><li>Last day to file Form 1040 if owners filed Form 4868.</li></ul></div></li>
+            </ol>
+          </div>
+          <div class="dl__panel" role="tabpanel" id="dl-panel-employer" aria-labelledby="dl-tab-employer">
+            <h3 class="dl__panel-title">Employers</h3>
+            <p class="dl__who">For businesses with employees or contractors: payroll tax returns, W-2s and 1099s.</p>
+            <p class="dl__next" data-next></p>
+            <ol class="dl__list">
+              <li class="dl__item dl__item--ongoing"><div class="dl__date"><b>Monthly</b><span>15th</span></div><div class="dl__body"><h3>Payroll tax deposits</h3><ul><li>Monthly depositors deposit withheld income tax and FICA by the 15th of the following month.</li><li>Semiweekly depositors follow the Wednesday and Friday schedule. FUTA is deposited when the liability passes $500.</li></ul></div></li>
+              <li class="dl__item" data-month="1" data-day="31"><div class="dl__date"><b>Jan</b><span>31</span></div><div class="dl__body"><h3>Year-end payroll and contractor filings</h3><ul><li>Send Form W-2 to employees and file W-2 and W-3 with the SSA.</li><li>Send Form 1099-NEC to contractors and file it with the IRS.</li><li>File Form 941 for Q4 and Form 940 (FUTA) for the year.</li></ul></div></li>
+              <li class="dl__item" data-month="4" data-day="30"><div class="dl__date"><b>Apr</b><span>30</span></div><div class="dl__body"><h3>Form 941 for Q1</h3><ul><li>Quarterly return for January through March.</li></ul></div></li>
+              <li class="dl__item" data-month="7" data-day="31"><div class="dl__date"><b>Jul</b><span>31</span></div><div class="dl__body"><h3>Form 941 for Q2</h3><ul><li>Quarterly return for April through June.</li></ul></div></li>
+              <li class="dl__item" data-month="10" data-day="31"><div class="dl__date"><b>Oct</b><span>31</span></div><div class="dl__body"><h3>Form 941 for Q3</h3><ul><li>Quarterly return for July through September.</li></ul></div></li>
+            </ol>
+          </div>
+          <p class="dl__note">Dates are the standard federal due dates for calendar-year filers. When a date falls on a weekend or federal holiday, the deadline moves to the next business day. State and local deadlines differ, and special cases such as fiscal years or disaster relief can change yours. This calendar is general guidance, not tax advice. Contact us to confirm your dates.</p>
+        </div>
+      </div>
+    </section>
+
     <!-- Pricing -->
     <section class="section pricing" id="pricing">
       <div class="container">
@@ -310,6 +367,112 @@
             </ul>
             <a href="#contact" class="btn btn--outline">Choose Plan</a>
           </article>
+        </div>
+        <p class="pricing__cta">Not sure which plan fits? <a href="#estimator">Estimate your price</a></p>
+      </div>
+    </section>
+
+    <!-- Price estimator -->
+    <section class="section estimator-section" id="estimator">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <span class="eyebrow">Price Estimator</span>
+          <h2>Estimate your monthly cost</h2>
+          <p>Pick your services and answer a few questions to see a ballpark price. No email address needed.</p>
+        </div>
+        <div class="estimator" data-estimator>
+          <form class="estimator__form" novalidate>
+            <fieldset class="est-field">
+              <legend>Which services do you need?</legend>
+              <div class="est-checks">
+                <label class="est-check"><input type="checkbox" name="svc" value="bookkeeping" checked><span>Bookkeeping</span></label>
+                <label class="est-check"><input type="checkbox" name="svc" value="payroll" checked><span>Payroll</span></label>
+                <label class="est-check"><input type="checkbox" name="svc" value="tax" checked><span>Tax preparation</span></label>
+              </div>
+            </fieldset>
+
+            <div class="est-group" data-group="bookkeeping">
+              <h3>Bookkeeping</h3>
+              <div class="est-row">
+                <label>Transactions per month
+                  <select name="tx">
+                    <option value="100">Up to 100</option>
+                    <option value="250">101 – 250</option>
+                    <option value="500">251 – 500</option>
+                    <option value="501">More than 500</option>
+                  </select>
+                </label>
+                <label>Books behind by
+                  <select name="behind">
+                    <option value="0">Up to date</option>
+                    <option value="3">1 – 3 months</option>
+                    <option value="6">4 – 6 months</option>
+                    <option value="12">7 – 12 months</option>
+                    <option value="13">More than 12 months</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+
+            <div class="est-group" data-group="payroll">
+              <h3>Payroll</h3>
+              <div class="est-row">
+                <label>Employees
+                  <input type="number" name="emp" min="1" max="500" value="5" inputmode="numeric">
+                </label>
+                <label>Pay frequency
+                  <select name="freq">
+                    <option value="weekly">Weekly</option>
+                    <option value="biweekly" selected>Every two weeks</option>
+                    <option value="semimonthly">Twice a month</option>
+                    <option value="monthly">Monthly</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+
+            <div class="est-group" data-group="tax">
+              <h3>Tax preparation</h3>
+              <div class="est-row">
+                <label>Return type
+                  <select name="taxtype">
+                    <option value="individual">Individual (1040)</option>
+                    <option value="schedulec" selected>Sole prop (1040 + Sch. C)</option>
+                    <option value="entity">S-corp / partnership</option>
+                  </select>
+                </label>
+                <label>States to file in
+                  <select name="states">
+                    <option value="1">1 state</option>
+                    <option value="2">2 states</option>
+                    <option value="3">3 states</option>
+                    <option value="4">4 or more states</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+          </form>
+
+          <aside class="estimator__result" aria-live="polite">
+            <p class="eyebrow eyebrow--light">Your estimate</p>
+            <div class="est-empty" data-out="empty" hidden>Select at least one service to see an estimate.</div>
+            <div data-out="results">
+              <div class="est-total" data-out="monthly-wrap">
+                <small>Monthly services</small>
+                <strong data-out="monthly">$0</strong>
+                <span>per month</span>
+              </div>
+              <div class="est-total est-total--sub" data-out="onetime-wrap">
+                <small>Returns and clean-up</small>
+                <strong data-out="onetime">$0</strong>
+                <span>one-time fees</span>
+              </div>
+              <ul class="est-lines" data-out="lines"></ul>
+              <p class="est-first">Estimated first year: <strong data-out="first">$0</strong></p>
+            </div>
+            <a href="#contact" class="btn btn--accent btn--block" data-estimate-cta>Get my exact quote <span class="btn__arrow" aria-hidden="true">→</span></a>
+            <p class="est-disclaimer">This is a planning estimate based on typical engagements, not a quote. Your final price depends on the condition of your records and the complexity of your situation. The free consultation confirms it.</p>
+          </aside>
         </div>
       </div>
     </section>
@@ -442,7 +605,9 @@
         <h4>Company</h4>
         <ul>
           <li><a href="#about">About Us</a></li>
+          <li><a href="#deadlines">Filing Deadlines</a></li>
           <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#estimator">Price Estimator</a></li>
           <li><a href="#faq">FAQ</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -463,5 +628,6 @@
   </footer>
 
   <script src="assets/script.js"></script>
+  <script src="assets/tools.js"></script>
 </body>
 </html>

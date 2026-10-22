@@ -42,7 +42,7 @@
 
   // Scroll reveal
   var revealTargets = document.querySelectorAll(
-    '.section-head, .feature, .service, .step, .plan, .quote, .why-card, .about__visual, .about__content, .faq details, .contact__form, .progress, .stat'
+    '.section-head, .feature, .service, .step, .plan, .quote, .why-card, .about__visual, .about__content, .faq details, .contact__form, .progress, .stat, .dl, .estimator'
   );
 
   if (!('IntersectionObserver' in window)) {

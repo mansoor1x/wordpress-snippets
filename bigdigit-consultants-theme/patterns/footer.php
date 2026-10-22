@@ -65,7 +65,15 @@ $bigdigit_home = home_url( '/' );
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
+<li><a href="<?php echo esc_url( $bigdigit_home . '#deadlines' ); ?>"><?php esc_html_e( 'Filing Deadlines', 'bigdigit' ); ?></a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
 <li><a href="<?php echo esc_url( $bigdigit_home . '#pricing' ); ?>"><?php esc_html_e( 'Pricing', 'bigdigit' ); ?></a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a href="<?php echo esc_url( $bigdigit_home . '#estimator' ); ?>"><?php esc_html_e( 'Price Estimator', 'bigdigit' ); ?></a></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->

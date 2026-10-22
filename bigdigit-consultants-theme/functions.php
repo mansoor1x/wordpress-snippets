@@ -44,6 +44,7 @@ function bigdigit_enqueue_assets() {
 	wp_enqueue_style( 'bigdigit-fonts', bigdigit_fonts_url(), array(), null ); // phpcs:ignore WordPress.WP.EnqueuedResourceParameters.MissingVersion
 	wp_enqueue_style( 'bigdigit-theme', get_theme_file_uri( 'assets/css/theme.css' ), array( 'bigdigit-fonts' ), BIGDIGIT_VERSION );
 	wp_enqueue_script( 'bigdigit-theme', get_theme_file_uri( 'assets/js/theme.js' ), array(), BIGDIGIT_VERSION, array( 'in_footer' => true ) );
+	wp_enqueue_script( 'bigdigit-tools', get_theme_file_uri( 'assets/js/tools.js' ), array(), BIGDIGIT_VERSION, array( 'in_footer' => true ) );
 }
 add_action( 'wp_enqueue_scripts', 'bigdigit_enqueue_assets' );
 

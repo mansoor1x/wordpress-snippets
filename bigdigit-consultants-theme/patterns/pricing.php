@@ -88,5 +88,9 @@ $bigdigit_plans = array(
 <!-- /wp:group -->
 
 <?php endforeach; ?></div>
-<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"pricing__cta"} -->
+<p class="pricing__cta"><?php esc_html_e( 'Not sure which plan fits?', 'bigdigit' ); ?> <a href="#estimator"><?php esc_html_e( 'Estimate your price', 'bigdigit' ); ?></a></p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group -->

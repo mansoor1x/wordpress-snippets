@@ -49,7 +49,7 @@
 
 	var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 	var revealTargets = document.querySelectorAll(
-		'.section-head, .feature, .service, .step, .plan, .quote-card, .why-card, .about__visual, .about__content, .faq .wp-block-details, .contact__form, .stat, .post-card'
+		'.section-head, .feature, .service, .step, .plan, .quote-card, .why-card, .about__visual, .about__content, .faq .wp-block-details, .contact__form, .stat, .post-card, .dl, .estimator'
 	);
 
 	revealTargets.forEach(function (el) { el.classList.add('reveal'); });

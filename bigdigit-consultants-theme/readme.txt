@@ -39,10 +39,18 @@ Many hosts block PHP mail. Install an SMTP plugin (for example WP Mail SMTP) so 
 The email address, office hours and LinkedIn URL appear in the header, footer and contact section.
 Edit them in the Site Editor, or set the defaults in code with the `bigdigit_company_details` filter.
 
+== Filing calendar and price estimator ==
+
+* The Federal Filing Calendar section lists standard IRS due dates for sole proprietors (1040), S-corps and
+  partnerships, and employers. It highlights the next deadline automatically and moves dates that fall on a
+  weekend or holiday to the next business day. Update the dates in patterns/deadlines.php if the IRS changes them.
+* The Price Estimator's rates are at the top of assets/js/tools.js (RATES). Change them to match your pricing.
+  "Get my exact quote" copies the estimate into the contact form's message field.
+
 == Before launch ==
 
-Replace the placeholder email address, office hours, statistics, prices and the three sample
-testimonials with real details.
+Replace the placeholder email address, office hours, statistics, prices, estimator rates and the three
+sample testimonials with real details.
 
 == Copyright ==
 

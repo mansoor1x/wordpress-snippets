@@ -39,6 +39,7 @@ $bigdigit_home = home_url( '/' );
 <!-- wp:navigation-link {"label":"<?php esc_attr_e( 'Home', 'bigdigit' ); ?>","url":"<?php echo esc_url( $bigdigit_home ); ?>","kind":"custom","isTopLevelLink":true} /-->
 <!-- wp:navigation-link {"label":"<?php esc_attr_e( 'About', 'bigdigit' ); ?>","url":"<?php echo esc_url( $bigdigit_home . '#about' ); ?>","kind":"custom","isTopLevelLink":true} /-->
 <!-- wp:navigation-link {"label":"<?php esc_attr_e( 'Services', 'bigdigit' ); ?>","url":"<?php echo esc_url( $bigdigit_home . '#services' ); ?>","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:navigation-link {"label":"<?php esc_attr_e( 'Deadlines', 'bigdigit' ); ?>","url":"<?php echo esc_url( $bigdigit_home . '#deadlines' ); ?>","kind":"custom","isTopLevelLink":true} /-->
 <!-- wp:navigation-link {"label":"<?php esc_attr_e( 'Pricing', 'bigdigit' ); ?>","url":"<?php echo esc_url( $bigdigit_home . '#pricing' ); ?>","kind":"custom","isTopLevelLink":true} /-->
 <!-- wp:navigation-link {"label":"<?php esc_attr_e( 'FAQ', 'bigdigit' ); ?>","url":"<?php echo esc_url( $bigdigit_home . '#faq' ); ?>","kind":"custom","isTopLevelLink":true} /-->
 <!-- wp:navigation-link {"label":"<?php esc_attr_e( 'Contact', 'bigdigit' ); ?>","url":"<?php echo esc_url( $bigdigit_home . '#contact' ); ?>","kind":"custom","isTopLevelLink":true} /-->
